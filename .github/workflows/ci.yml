@@ -29,8 +29,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ steps.login-ecr.outputs.registry }}/python-docker:${{ github.sha }} .
+          docker build -t ${{ steps.login-ecr.outputs.registry }}/pyhton-docker:${{ github.sha }} .
 
       - name: Push Docker image
         run: |
-          docker push ${{ steps.login-ecr.outputs.registry }}/python-docker:${{ github.sha }}
+          docker push ${{ steps.login-ecr.outputs.registry }}/pyhton-docker:${{ github.sha }}

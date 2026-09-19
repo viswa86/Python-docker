@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: 201937185028.dkr.ecr.ap-south-1.amazonaws.com/pyhton-docker
-  tag: "latest"
+  tag: "YOUR_SHA"
   pullPolicy: IfNotPresent
 
 service:

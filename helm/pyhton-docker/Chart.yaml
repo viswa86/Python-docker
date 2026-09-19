@@ -1,0 +1,6 @@
+apiVersion: v2
+name: pyhton-docker
+description: Helm chart for pyhton-docker application
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

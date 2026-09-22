@@ -6,8 +6,8 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return {
-        "message": "DevOps EKS Demo",
-        "version": os.getenv("APP_VERSION", "v2")
+        "message": "Gitops Deployment has been started",
+        "version": os.getenv("APP_VERSION", "v3")
     }
 
 @app.route("/health")
